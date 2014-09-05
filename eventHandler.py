@@ -1,7 +1,7 @@
 #Perry Holen
 #Event Handler that creates a changelog for the specified directory
 
-#GIT TEST BEEP BOOP NUMERO DOS
+
 
 
 import sys
