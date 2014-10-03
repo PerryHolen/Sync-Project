@@ -15,10 +15,6 @@ from watchdog.events import FileSystemEventHandler
 Extend FileSystemEventHandler to be able to write custom on_any_event method
 '''
 class MyHandler(FileSystemEventHandler):
-    '''
-    Overwrite the methods for creation, deletion, modification, and moving
-    to get more information as to what is happening on output
-    '''
 
 
     def on_created(self, event):
