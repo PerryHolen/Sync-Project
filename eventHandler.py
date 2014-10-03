@@ -27,6 +27,7 @@ class MyHandler(FileSystemEventHandler):
 
             print log
 
+# Git Testing
 
     def on_deleted(self, event):
 
